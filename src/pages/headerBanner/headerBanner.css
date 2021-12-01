@@ -1,0 +1,84 @@
+#header-banner {
+  padding: 40px 0;
+  background-color: #eee;
+}
+
+.header-banner-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-banner-text {
+  width: 50%;
+}
+
+.header-banner-heading h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+#header-banner-hr {
+  width: 70px;
+  height: 5px;
+  background-color: red;
+  border: none;
+  margin: 10px 0;
+}
+
+#wellcome-message {
+  color: tomato;
+  font-size: 25px;
+}
+
+#developer-first-name,
+#developer-mid-name,
+#developer-last-name {
+  font-size: 40px;
+}
+
+#developer-first-name {
+  background: linear-gradient(to right, #9f2b68, #ff00ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#developer-mid-name {
+  background: linear-gradient(green, tomato);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#developer-last-name {
+  color: #324ab2;
+}
+
+#developer-simple-details {
+  width: 60%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  line-height: 31px;
+}
+
+.header-banner-image {
+  width: 40%;
+}
+
+.header-banner-image img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.hire-me-btn {
+  padding: 13px 30px;
+  margin-top: 30px;
+  background-color: dodgerblue;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3 px;
+  -moz-border-radius: 3 px;
+  -ms-border-radius: 3 px;
+  -o-border-radius: 3 px;
+  cursor: pointer;
+}

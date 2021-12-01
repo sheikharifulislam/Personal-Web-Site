@@ -1,0 +1,37 @@
+.single-skill {
+  width: 22.5%;
+  height: 150px;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.single-skill-image {
+  display: block;
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+
+.single-skill-image img {
+  display: inline-block;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.single-skill-name p {
+  text-align: center;
+  color: #fff;
+}

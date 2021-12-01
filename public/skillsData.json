@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "imageUrl": "https://i.ibb.co/fndC5Xf/abc.png",
+        "skillName": "HTML"
+    },
+    {
+        "id": "2",
+        "imageUrl": "https://i.ibb.co/tqcT337/css-1-removebg-preview-1.png",
+        "skillName": "CSS"
+    },
+    {
+        "id": "3",
+        "imageUrl": "https://i.ibb.co/WnKJjxB/download-removebg-preview.png",
+        "skillName": "BOOTSTRAP"
+    },
+    {
+        "id": "4",
+        "imageUrl": "https://i.ibb.co/s9Tt2tN/download-7-removebg-preview.png",
+        "skillName": "TAILWIND CSS"
+    },
+    {
+        "id": "5",
+        "imageUrl": "https://i.ibb.co/KDcNzB3/javascript-removebg-preview.png",
+        "skillName": "JAVASCRIPT"
+    },
+    {
+        "id": "6",
+        "imageUrl": "https://i.ibb.co/JsxVPXw/download-2-removebg-preview.png",
+        "skillName": "REACT"
+    },
+    {
+        "id": "7",
+        "imageUrl": "https://i.ibb.co/3mWv1p8/download-3-removebg-preview.png",
+        "skillName": "NODE JS"
+    },
+    {
+        "id": "8",
+        "imageUrl": "https://i.ibb.co/WKyQTF1/download-1.png",
+        "skillName": "EXPRESS JS"
+    },
+    {
+        "id": "9",
+        "imageUrl": "https://i.ibb.co/FDDwK97/download-6-removebg-preview.png",
+        "skillName": "MONGODB"
+    },
+    {
+        "id": "10",
+        "imageUrl": "https://i.ibb.co/VxY4WmV/download-5-removebg-preview.png",
+        "skillName": "FIREBASE"
+    },
+    {
+        "id": "11",
+        "imageUrl": "https://i.ibb.co/2dN87B3/download-4-removebg-preview.png",
+        "skillName": "MATERIAL UI"
+    },
+    {
+        "id": "12",
+        "imageUrl": "https://i.ibb.co/NNCLsHm/download-1.jpg",
+        "skillName": "GIT HUB"
+    }
+]

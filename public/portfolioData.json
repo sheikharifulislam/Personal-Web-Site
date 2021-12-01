@@ -1,0 +1,42 @@
+[
+    {
+        "id": "4a37307d-fb55-4e96-a58e-9b3554b58c15",
+        "portfolioImage": "https://i.ibb.co/Gctw92r/screencapture-primrose-9b4ff-web-app-2021-11-30-20-34-24.png",
+        "webSiteName": "Primrose",
+        "githubLink": "https://github.com/sheikharifulislam/Primrose",
+        "liveSiteLInk": "https://primrose-9b4ff.web.app/",
+        "portfolioDetailsImage": "https://thumbs2.imgbox.com/5b/34/uGVoXygK_t.png",
+        "summary": ["It is a Full Stack (MERN) E-Commerce website for a specific Product","The user will be able to open an account on the website and order products and cancel orders from the website.","The user will be able to see the updated status of the ordered product and review the ordered product on the website.","If the admin wants, he can confirm the order, cancel and add, update and delete the product"],
+        "usedTechnology": ["React","Material UI","Firebase","Node.JS","Express.js","MongoDB","Heroku"]
+    },
+    {
+        "id": "4a37307d-fb55-4e96-a58e-9b3554b58c153",
+        "portfolioImage": "https://i.ibb.co/ZBcRR19/screencapture-trivago-dbd5f-web-app-2021-11-30-20-35-27.png",
+        "webSiteName": "Trivago",
+        "githubLink": "https://github.com/sheikharifulislam/Trivago",
+        "liveSiteLInk": "https://trivago-dbd5f.web.app/",
+        "portfolioDetailsImage": "https://thumbs2.imgbox.com/ba/ae/Q2nPTJrD_t.png",
+        "summary": ["It is a travel services Website.","Users will be able to purchase different types of services for traveling to different places from our website.","Separate private route for each user, so you can't see all the things on the website without logging in.","If the user wants, he can see all the services ordered by him."],
+        "usedTechnology": ["React","Css","Firebase","Node.JS","Express.js","MongoDB","Heroku"]
+    },
+    {
+        "id": "4a37307d-fb55-4e96-a58e-9b3554b58c154",
+        "portfolioImage": "https://i.ibb.co/TqP01w0/screencapture-upasham-medicare-web-app-2021-11-30-20-31-51.png",
+        "webSiteName": "Upasham Medcare",
+        "githubLink": "https://github.com/sheikharifulislam/Upasham-Medicare",
+        "liveSiteLInk": "https://upasham-medicare.web.app/",
+        "portfolioDetailsImage": "https://thumbs2.imgbox.com/37/57/23eM7yQD_t.png",
+        "summary": ["It is a medical service provider website.","Users will be able to register and login to the website.","Users can log in, view our service details, and read our blog."],
+        "usedTechnology": ["React","Css","Firebase"]
+    },
+    {
+        "id": "4a37307d-fb55-4e96-a58e-9b3554b58c155",
+        "portfolioImage": "https://i.ibb.co/Ttt009n/screencapture-sheikharifulislam-github-io-food-funday-2021-12-01-03-49-21.png",
+        "webSiteName": "Food Funday",
+        "githubLink": "https://github.com/sheikharifulislam/food-funday",
+        "liveSiteLInk": "https://sheikharifulislam.github.io/food-funday/",
+        "portfolioDetailsImage": "https://thumbs2.imgbox.com/4a/8e/5nJWaqRs_t.png",
+        "summary": ["Upcomeing"],
+        "usedTechnology": ["Html","css"]
+    }
+]
