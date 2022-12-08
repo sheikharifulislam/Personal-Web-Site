@@ -1,10 +1,13 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
 import aboutImage from "../../images/about-us.png";
 import "./about.css";
 
 const About = () => {
+    const redirect = (url) => {
+        window.open(url, "_blank");
+        return null;
+    };
     return (
         <div id="about-section">
             <div className="container">
@@ -33,25 +36,23 @@ const About = () => {
                         <div className="contact-link">
                             <h2>Follow Me</h2>
                             <div className="social-website-link">
-                                <div className="link">
-                                    <NavLink to="https://github.com/sheikharifulislam" target="_blank">
-                                        <FaGithub size={30} color="#333" title="GitHub" />
-                                    </NavLink>
+                                <div className="link" onClick={() => redirect("https://github.com/sheikharifulislam")}>
+                                    <FaGithub size={30} color="#333" title="GitHub" />
                                 </div>
-                                <div className="link">
-                                    <NavLink to="https://www.linkedin.com/in/sheikh-ariful-islam1/" target="_blank">
-                                        <FaLinkedin size={30} color="#333" title="LinkedIn" />
-                                    </NavLink>
+                                <div
+                                    className="link"
+                                    onClick={() => redirect("https://www.linkedin.com/in/sheikh-ariful-islam1/")}
+                                >
+                                    <FaLinkedin size={30} color="#333" title="LinkedIn" />
                                 </div>
-                                <div className="link">
-                                    <NavLink to="https://www.facebook.com/sheikhariful.9465177" target="_blank">
-                                        <FaFacebook size={30} color="#333" title="Facebook" />
-                                    </NavLink>
+                                <div
+                                    className="link"
+                                    onClick={() => redirect("https://www.facebook.com/sheikhariful.9465177")}
+                                >
+                                    <FaFacebook size={30} color="#333" title="Facebook" />
                                 </div>
-                                <div className="link">
-                                    <NavLink to="https://twitter.com/SheikhArifulI14" target="_blank">
-                                        <FaTwitter size={30} color="#333" title="Twitter" />
-                                    </NavLink>
+                                <div className="link" onClick={() => redirect("https://twitter.com/SheikhArifulI14")}>
+                                    <FaTwitter size={30} color="#333" title="Twitter" />
                                 </div>
                             </div>
                         </div>
