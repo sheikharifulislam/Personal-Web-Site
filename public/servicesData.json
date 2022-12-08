@@ -3,30 +3,30 @@
         "id": "1",
         "serviceName": "Web Design",
         "serviceImage": "https://img.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg?size=626&ext=jpg&ga=GA1.2.618105192.1638249471",
-        "serviceDetails": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization"
+        "serviceDetails": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The other areas of web design include graphic web design, user interface design, and authoring."
     },
     {
         "id": "2",
         "serviceName": "Web Development",
         "serviceImage": "https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=338&ext=jpg&ga=GA1.2.618105192.1638249471",
-        "serviceDetails": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services."
+        "serviceDetails": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications and electronic businesses."
     },
     {
         "id": "3",
         "serviceName": "Response Web Design",
         "serviceImage": "https://img.freepik.com/free-vector/responsive-web-design_23-2147546970.jpg?size=338&ext=jpg&ga=GA1.2.618105192.1638249471",
-        "serviceDetails": "Responsive web design or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction"
+        "serviceDetails": "Responsive web design or responsive design is an approach to web design that aims to make web pages render well on various devices and window or screen sizes from minimum to maximum display."
     },
     {
         "id": "4",
         "serviceName": "Bug Fixing",
         "serviceImage": "https://i.ibb.co/8Mf3TzZ/bug-fixing-software-testing-computer-virus-searching-tool-develops-web-optimization-antivirus-app-ma.jpg",
-        "serviceDetails": "A patch is a set of changes to a computer program or its supporting data designed to update, fix, or improve it. This includes fixing security vulnerabilities and other bugs, with such patches usually being called bugfixes or bug fixes"
+        "serviceDetails": "A patch is a set of changes to a computer program or its supporting data designed to update, fix, or improve it. This includes fixing security vulnerabilities and other bugs, with such patches usually."
     },
     {
         "id": "5",
         "serviceName": "Rest Api Design",
         "serviceImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMZbpqsy9I0nONd0qQMFF8mk-Wjg0vsTJ5uQ&usqp=CAU",
-        "serviceDetails": "Representational state transfer is a software architectural style that was created to guide the design and development of the architecture for the World Wide Web. REST defines a set of constraints for how the architecture of an Internet-scale distributed hypermedia system, such as the Web, should behave."
-    }    
+        "serviceDetails": "Representational state transfer is a software architectural style that was created to guide the design and development of the architecture for the World Wide Web. REST defines a set of constraints for how the."
+    }
 ]

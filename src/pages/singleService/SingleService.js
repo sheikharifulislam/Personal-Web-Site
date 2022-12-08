@@ -1,8 +1,8 @@
-import React from 'react';
-import './singleService.css';
+import React from "react";
+import "./singleService.css";
 
-const SingleService = ({service}) => {
-    const {serviceName,serviceImage,serviceDetails} = service;
+const SingleService = ({ service }) => {
+    const { serviceName, serviceImage, serviceDetails } = service;
     return (
         <div data-aos="zoom-in-left" data-aos-duration="2000" className="single-service">
             <div className="single-service-container">

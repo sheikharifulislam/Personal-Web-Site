@@ -1,65 +1,55 @@
 #about-section {
-  padding: 50px 0;
-  background-color: #eee;
+    padding: 50px 0;
+    background-color: #eee;
 }
 
 .about-section-heading h2 {
-  text-align: center;
-  font-family: "Helvetica Neue";
-  font-size: 40px;
-  margin-bottom: 30px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
 .about-section-container {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-section-developer-image {
-  width: 40%;
+    width: 40%;
 }
 
 .about-section-developer-image img {
-  width: 100%;
+    width: 100%;
 }
 
 .about-secttion-developer-details {
-  width: 50%;
+    width: 50%;
 }
 
 .about-secttion-developer-details P {
-  font-size: 18px;
-  line-height: 30px;
-  font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
 }
 
 .development-category {
-  color: tomato;
-  font-size: 22px;
+    color: tomato;
+    font-size: 22px;
 }
 
 .about-secttion-developer-details P:nth-child(2) {
-  margin-top: 12px;
+    margin-top: 12px;
 }
 
-.contact-link,
+.contact-link {
+    font-size: 18px;
+    color: rgb(186, 60, 38);
+    margin-top: 15px;
+}
+
 .social-website-link {
-  margin-top: 10px;
-}
-.contact-link h4 a {
-  display: inline-block;
-  margin-bottom: 10px;
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
-}
-
-.contact-link h4 a:hover {
-  text-decoration: underline;
-}
-
-.social-website-link a i {
-  font-size: 35px;
-  color: #333;
-  margin-right: 15px;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
 }

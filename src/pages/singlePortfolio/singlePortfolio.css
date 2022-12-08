@@ -1,84 +1,84 @@
 .single-portfolio {
-  width: 31.333333%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  margin-bottom: 20px;
+    width: 31.333333%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-bottom: 20px;
 }
 
 .portfolio-image {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio-image img {
-  width: 100%;
-  object-fit: cover;
+    width: 100%;
+    object-fit: cover;
 }
 .portfolio-link {
-  width: 100%;
-  height: 30px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10px;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .portfolio-link span a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 14px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 5px 7px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  position: relative;
-  z-index: 5;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    z-index: 5;
 }
 
 .portfolio-details-btn {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 .single-portfolio:hover .portfolio-details-btn {
-  bottom: 0%;
+    bottom: 0%;
 }
 
 .portfolio-details-btn a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 20px;
-  color: #fff;
-  background-color: dodgerblue;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  border: none;
-  outline: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: dodgerblue;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: none;
+    outline: none;
 }

@@ -1,22 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import './porttfolioDetails.css';
-
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import "./porttfolioDetails.css";
 
 const PortfolioDetails = () => {
-
-    const  {portfolioDetailsId} = useParams();
+    const { portfolioDetailsId } = useParams();
 
     const [portfolioDetails, setportfolioDetails] = useState([]);
-   useEffect(() => {
-        fetch('/portfolioData.json')
-        .then((response) => response.json())
-        .then((data) => setportfolioDetails(data))
-        .catch((error) => console.log(error.message))
-   }, [])
+    useEffect(() => {
+        fetch("/portfolioData.json")
+            .then((response) => response.json())
+            .then((data) => setportfolioDetails(data))
+            .catch((error) => console.log(error.message));
+    }, []);
 
-    const singleportfolioData = portfolioDetails.find((data) => data.id === portfolioDetailsId);  
-    
+    const singleportfolioData = portfolioDetails.find((data) => data.id === portfolioDetailsId);
 
     return (
         <div id="portfolio-details-section">
@@ -34,29 +31,24 @@ const PortfolioDetails = () => {
                         </div>
                         <div className="portfolio-summary">
                             <h4>Short Summary: </h4>
-                            <ul>                       
-                                {
-                                    singleportfolioData?.summary.map((singleSummary) => (
-                                        <li key={singleSummary}>{singleSummary}</li>
-                                    ))
-                                }
+                            <ul>
+                                {singleportfolioData?.summary.map((singleSummary) => (
+                                    <li key={singleSummary}>{singleSummary}</li>
+                                ))}
                             </ul>
                         </div>
                         <div className="used-technology">
                             <h4>Used Technology: </h4>
-                            <ul>                             
-                                {
-                                    singleportfolioData?.usedTechnology.map((singleTechnology) => (
-                                        <li>{singleTechnology}</li>
-                                    ))
-                                }
-                            </ul>   
+                            <ul>
+                                {singleportfolioData?.usedTechnology.map((singleTechnology) => (
+                                    <li>{singleTechnology}</li>
+                                ))}
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
     );
 };
 
